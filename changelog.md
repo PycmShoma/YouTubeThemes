@@ -1,0 +1,2 @@
+- Added new theme overlays
+- Updated module installer
