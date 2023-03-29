@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:label="GreyThemeYouTubeOverlay"
+    android:compileSdkVersion="31"
+    android:compileSdkVersionCodename="12"
+    package="app.rvx.android.youtube.grey.overlay"
+    platformBuildVersionCode="31"
+    platformBuildVersionName="12"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:extractNativeLibs="false"
+        android:usesNonSdkApi="true" />
+    <overlay
+        android:priority="1000"
+        android:targetPackage="app.rvx.android.youtube"
+        android:isStatic="true" />
+</manifest>
