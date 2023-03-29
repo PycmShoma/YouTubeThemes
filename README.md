@@ -1,5 +1,5 @@
 # YouTubeThemes
-### Colored themes for:
+### Magisk Module with themes for:
 - Original YouTube 
 - Root/Mod versions of YouTube reVanced
 - Non Root YouTube reVanced
