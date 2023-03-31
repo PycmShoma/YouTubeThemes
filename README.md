@@ -22,7 +22,7 @@ First step - choose target app
 
 Second step - choose theme
 
-### [Screenshots](https://github.com/PycmShoma/YouTubeThemes/blob/main/assets/Screenshot.png)
+### [Screenshots](/assets/screenshot.md)
 
 ### Note
 - You can download the latest version in the [releases](https://github.com/PycmShoma/YouTubeThemes/releases/latest) tab
@@ -32,3 +32,4 @@ Second step - choose theme
 
 ### Credits
 [Keycheck](https://github.com/Zackptg5/Keycheck) by [Zackptg5](https://github.com/Zackptg5)
+
