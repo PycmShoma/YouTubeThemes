@@ -1,3 +1,7 @@
+<p align="center">
+<img width="100" height="100" src="/assets/YouTube.png">
+</p>
+
 ## YouTubeThemes
 `Magisk Module with themes for next apps`
 > Original YouTube
