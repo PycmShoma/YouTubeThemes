@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quick_seek_bloom_end">#00000000</color>
+    <color name="quick_seek_bloom_start">#00000000</color>
+    <color name="yt_black_pure_opacity60">#00000000</color>
+</resources>
