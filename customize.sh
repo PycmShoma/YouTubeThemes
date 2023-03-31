@@ -43,7 +43,7 @@ A=1
       4) TEXT="    MaterialYou Theme";;
       3) TEXT="    Grey Theme";;
       2) TEXT="    Dark Grey Theme";;
-      1) TEXT="    Balck Theme";;
+      1) TEXT="    Black Theme";;
     esac
       ui_print "    $A - $TEXT"
         if $VKSEL; then
