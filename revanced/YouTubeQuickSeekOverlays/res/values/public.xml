@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="color" name="quick_seek_bloom_end" id="0x7f010000" />
+    <public type="color" name="quick_seek_bloom_start" id="0x7f010001" />
+    <public type="color" name="yt_black_pure_opacity60" id="0x7f010002" />
+</resources>
