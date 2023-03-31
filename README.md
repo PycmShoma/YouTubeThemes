@@ -1,5 +1,5 @@
 ## YouTubeThemes
-### Magisk Module with themes for:
+### Magisk Module with themes for next apps:
 - Original YouTube 
 - Root/Mod versions of YouTube reVanced
 - Non Root YouTube reVanced
@@ -8,11 +8,13 @@ You can choose which app to apply themes to.
 
 For original YouTube and Root/Mod versions of YouTube reVanced or Non Root YouTube reVanced
 
-Four themes:
+### Four themes:
 - Black
 - Dark grey
 - Grey
 - MaterialYou (only A12+)
+
+### Added patch to remove quick seek backgrounds and animations 
 
 > Volume up (+) to change selection
 
