@@ -8,8 +8,10 @@ ui_print "    Volume down (-) to decide"
 ui_print " "
 sleep 1
 ui_print "    What target YouTube app to use?"
+ui_print " "
 sleep 1
 
+# Choose app
 A=1
   while true; do
     case $A in
@@ -31,12 +33,15 @@ A=1
     1) echo "    Original or Root/Modded versions of YouTube App" > $MODPATH/app.log; rm -r $MODPATH/revanced; mv $MODPATH/original $MODPATH/temp;;
     2) echo "    Non Root YouTube reVanced App" > $MODPATH/app.log; rm -r $MODPATH/original; mv $MODPATH/revanced $MODPATH/temp;;
   esac
+
 ui_print " "
 ui_print "*******************"
 sleep 3
 ui_print "    What theme to use?"
 ui_print " "
 sleep 1
+
+# Choose theme
 A=1
   while true; do
     case $A in
@@ -62,6 +67,38 @@ A=1
     3) echo "    Grey Theme YouTune Overlay" > $MODPATH/install.log; mv $MODPATH/temp/GreyThemeYouTubeOverlay $MODPATH/system/folder/overlay/GreyThemeYouTubeOverlay;;
     4) echo "    MaterialYou Theme YouTube Overlay" > $MODPATH/install.log; mv $MODPATH/temp/MaterialYouThemeYouTubeOverlay $MODPATH/system/folder/overlay/MaterialYouThemeYouTubeOverlay;;
   esac
+
+ui_print " "
+ui_print "*******************"
+ui_print " "
+sleep 3
+ui_print "    Remove quick seek and tap bloom backgrounds?"
+ui_print " "
+sleep 1
+
+# Choose patch
+A=1
+  while true; do
+    case $A in
+      1) TEXT="    Yes";;
+      2) TEXT="    No";;
+    esac
+      ui_print "    $A - $TEXT"
+        if $VKSEL; then
+          A=$((A + 1))
+        else
+          break
+        fi
+        if [ $A -gt 2 ]; then
+          A=1
+        fi
+  done
+
+  case $A in
+    1) echo "    Backgrounds removed" > $MODPATH/quickseek.log; mv $MODPATH/temp/YouTubeQuickSeekOverlays $MODPATH/system/folder/overlay/YouTubeQuickSeekOverlays;;
+    2) echo "    Backgrounds not removed" > $MODPATH/quickseek.log; rm -r $MODPATH/temp/YouTubeQuickSeekOverlays;;
+  esac
+
 # Result
 ui_print " "
 ui_print "*******************"
@@ -73,21 +110,25 @@ cat $MODPATH/app.log
 sleep 1
 ui_print " "
 cat $MODPATH/install.log
+sleep 1
+ui_print " "
+cat $MODPATH/quickseek.log
 ui_print " "
 ui_print "*******************"
 sleep 1
 ui_print " "
 ui_print "    Clearing temporary directories"
+
 # Clean temporary directory
 rm -r $MODPATH/addon
 rm -r $MODPATH/assets
-rm $MODPATH/app.log
-rm $MODPATH/install.log
+rm -r $MODPATH/*.log
 rm -r $MODPATH/temp
 sleep 1
 ui_print " "
 ui_print "*******************"
 ui_print " "
+
 # Finding directory of overlays
 ui_print " "
 ui_print "    Find target directory of the overlays ... "
