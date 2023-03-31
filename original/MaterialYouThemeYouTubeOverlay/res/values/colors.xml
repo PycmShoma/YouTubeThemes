@@ -31,8 +31,6 @@
     <color name="yt_badge_background_dark">@android:color/system_neutral1_900</color>
     <color name="yt_badge_background_light">@android:color/system_neutral1_50</color>
     <color name="yt_black_pure">@android:color/system_neutral1_900</color>
-    <color name="yt_black_pure_opacity60">@android:color/system_neutral1_900</color>
-    <color name="yt_black_pure_opacity80">@android:color/system_neutral1_900</color>
     <color name="yt_black0">@android:color/system_neutral1_900</color>
     <color name="yt_black1">@android:color/system_neutral1_900</color>
     <color name="yt_black1_opacity95">@android:color/system_neutral1_900</color>
