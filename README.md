@@ -1,4 +1,4 @@
-# YouTubeThemes
+## YouTubeThemes
 ### Magisk Module with themes for:
 - Original YouTube 
 - Root/Mod versions of YouTube reVanced
