@@ -3,5 +3,5 @@ name=YouTube Themes
 version=4.0
 versionCode=4
 author=Pycm [4PDA]
-description=Themes for original YouTube, Moded YouTube and YouTube reVanced. Black, Dark Grey, Grey and MaterialYou
+description=Themes for original YouTube, Moded YouTube and YouTube reVanced. Black, Dark Grey, Grey and MaterialYou. Hide player overlay filter
 updateJson=https://raw.githubusercontent.com/PycmShoma/YouTubeThemes/main/module.json
