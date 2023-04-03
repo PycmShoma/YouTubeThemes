@@ -23,7 +23,7 @@ For original YouTube and Root/Mod versions of YouTube reVanced or Non Root YouTu
 
 > MaterialYou (only A12+)
 
-`Added patch to hide payer overlay filters`
+`Added patch to hide player overlay filters`
 > Removed quick seek background overlay
 
 > Removed tap bloom background overlay
