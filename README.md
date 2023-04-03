@@ -53,5 +53,7 @@ If you want to build your own module with changes in overlays, you can do it usi
 
 
 ### Credits
-[Keycheck](https://github.com/Zackptg5/Keycheck) by [Zackptg5](https://github.com/Zackptg5)
+*Keycheck* by [Zackptg5](https://github.com/Zackptg5)
+
+*KeySelector* by [HuskyDG](https://github.com/HuskyDG)
 
