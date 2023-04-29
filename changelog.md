@@ -1,3 +1,1 @@
-- Removed quick seek background overlay
-- Removed tap bloom background overlay
-- Removed tap bloom animations
+- Applying themes with light mode
