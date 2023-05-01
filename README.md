@@ -57,3 +57,11 @@ If you want to build your own module with changes in overlays, you can do it usi
 
 *KeySelector* by [HuskyDG](https://github.com/HuskyDG)
 
+<!-- ![Release](https://img.shields.io/github/downloads/PycmShoma/YouTubeThemes/latest/total?label=Downloads%20%28Latest%20Release%29&style=social)
+
+![All Releases](https://img.shields.io/github/downloads/PycmShoma/YouTubeThemes/total?label=Downloads%20%28All%20Releases%29&style=social)-->
+
+<a href="https://4pda.to/forum/index.php?showtopic=915158&view=findpost&p=121825537"><img src="https://img.shields.io/badge/4PDA%20Thread%20/%20Тема%20на%204PDA-blue?longCache=true&style=flat"> </a>
+
+
+
