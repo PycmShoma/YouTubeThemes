@@ -9,6 +9,8 @@ ui_print " "
 sleep 1
 ui_print "    What target YouTube app to use?"
 ui_print " "
+ui_print "    Choose one of three options"
+ui_print " "
 sleep 1
 
 # Choose app
@@ -16,7 +18,8 @@ A=1
   while true; do
     case $A in
       1) TEXT="    Original or Root/Modded versions of YouTube";;
-      2) TEXT="    Non Root YouTube reVanced";;
+      2) TEXT="    Non Root YouTube reVanced Extended";;
+      3) TEXT="    Non Root YouTube reVanced";;
     esac
       ui_print "    $A - $TEXT"
         if $VKSEL; then
@@ -24,20 +27,23 @@ A=1
         else
           break
         fi
-        if [ $A -gt 2 ]; then
+        if [ $A -gt 3 ]; then
           A=1
         fi
   done
 
   case $A in
-    1) echo "    Original or Root/Modded versions of YouTube App" > $MODPATH/app.log; rm -r $MODPATH/revanced; mv $MODPATH/original $MODPATH/temp;;
-    2) echo "    Non Root YouTube reVanced App" > $MODPATH/app.log; rm -r $MODPATH/original; mv $MODPATH/revanced $MODPATH/temp;;
+    1) echo "    Original or Root/Modded versions of YouTube App" > $MODPATH/app.log; rm -r $MODPATH/revanced; rm -r $MODPATH/rvx; mv $MODPATH/original $MODPATH/temp;;
+    2) echo "    Non Root YouTube reVanced Extended App" > $MODPATH/app.log; rm -r $MODPATH/original; rm -r $MODPATH/revanced; mv $MODPATH/rvx $MODPATH/temp;;
+    3) echo "    Non Root YouTube reVanced App" > $MODPATH/app.log; rm -r $MODPATH/original; mv $MODPATH/rvx; mv $MODPATH/revanced $MODPATH/temp;;
   esac
 
 ui_print " "
 ui_print "*******************"
 sleep 3
 ui_print "    What theme to use?"
+ui_print " "
+ui_print "    Choose one of four options"
 ui_print " "
 sleep 1
 
@@ -74,6 +80,8 @@ ui_print " "
 sleep 3
 ui_print "    Remove quick seek and tap bloom backgrounds?"
 ui_print " "
+ui_print "    Choose one of two options"
+ui_print " "
 sleep 1
 
 # Choose patch
@@ -104,7 +112,7 @@ ui_print " "
 ui_print "*******************"
 sleep 1
 ui_print " "
-ui_print "    You have selected:"
+ui_print "    You shoosed:"
 ui_print " "
 cat $MODPATH/app.log
 sleep 1

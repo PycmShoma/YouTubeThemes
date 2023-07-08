@@ -8,11 +8,13 @@
 
 > Root/Mod versions of YouTube reVanced
 
+> Non Root YouTube reVanced Extended
+
 > Non Root YouTube reVanced
 
 You can choose which app to apply themes to.
 
-For original YouTube and Root/Mod versions of YouTube reVanced or Non Root YouTube reVanced
+For original YouTube and Root/Mod versions of YouTube reVanced or Non Root YouTube reVanced / Extended
 
 `Four themes`
 > Black
@@ -23,7 +25,7 @@ For original YouTube and Root/Mod versions of YouTube reVanced or Non Root YouTu
 
 > MaterialYou (only A12+)
 
-`Added patch to hide player overlay filters`
+`Added patch to hide payer overlay filters`
 > Removed quick seek background overlay
 
 > Removed tap bloom background overlay
@@ -53,15 +55,5 @@ If you want to build your own module with changes in overlays, you can do it usi
 
 
 ### Credits
-*Keycheck* by [Zackptg5](https://github.com/Zackptg5)
-
-*KeySelector* by [HuskyDG](https://github.com/HuskyDG)
-
-<!-- ![Release](https://img.shields.io/github/downloads/PycmShoma/YouTubeThemes/latest/total?label=Downloads%20%28Latest%20Release%29&style=social)
-
-![All Releases](https://img.shields.io/github/downloads/PycmShoma/YouTubeThemes/total?label=Downloads%20%28All%20Releases%29&style=social)-->
-
-<a href="https://4pda.to/forum/index.php?showtopic=915158&view=findpost&p=121825537"><img src="https://img.shields.io/badge/4PDA%20Thread%20/%20Тема%20на%204PDA-blue?longCache=true&style=flat"> </a>
-
-
+[Keycheck](https://github.com/Zackptg5/Keycheck) by [Zackptg5](https://github.com/Zackptg5)
 
